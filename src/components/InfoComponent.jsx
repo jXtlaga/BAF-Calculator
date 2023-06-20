@@ -1,10 +1,10 @@
-import {useState} from 'react';
+
 import AboutBafComponent from './AboutBafComponent.jsx';
 function InfoComponent({resizeClick, setMenu, searchInput, setSearchInput}) {
     
     const search = (e) => {
         e.preventDefault();
-        console.log(searchInput);
+       
         let searchInputPom = searchInput;
         let id = {"title": "hello"}
         window.ILITEAPI.searchAddress(
@@ -15,7 +15,7 @@ function InfoComponent({resizeClick, setMenu, searchInput, setSearchInput}) {
         })
             
         }
-        console.log(resizeClick);
+
     return (
         <div className={resizeClick? 'App-info opacityAnimation':'App-info opacityAnimation2'}>
             <div className='App-infoPositions'>

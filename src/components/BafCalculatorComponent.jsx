@@ -8,8 +8,8 @@ console.log(placesData.length);
     return(
         <div 
         onClick={() => setPlaceClicked(index)}
-         className={placeClicked == index? 'sliderX-backItem': 'sliderX-backItem sliderX-backItemNone'} 
-         style={index == 0? {paddingLeft:'5vw'}: index == placesData.length - 1?  {paddingRight:'10%'}:{}}
+         className={placeClicked === index? 'sliderX-backItem': 'sliderX-backItem sliderX-backItemNone'} 
+         style={index === 0? {paddingLeft:'5vw'}: index == placesData.length - 1?  {paddingRight:'10%'}:{}}
          >
        
         <div className="sliderX-item">
@@ -17,7 +17,7 @@ console.log(placesData.length);
         </div>
        
             <p className="sliderX-text">{placesData[index].title}</p>
-            {placeClicked == index &&
+            {placeClicked === index &&
                 <div className="sliderX-backItemLine">
                 </div>
             }

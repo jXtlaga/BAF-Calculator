@@ -14,6 +14,7 @@ Features:
 - BAF news
 - Map, area search & zoom button
 - Transition to calculator
+![Home Page](./mainPage.png)
 ## 4. Calculator Page
 Features:
 - Selecting space
@@ -21,11 +22,14 @@ Features:
 - Button with more detailed information
 - Calculating the sum of m2
 - Not allowing to proceed without selecting a space or surface.
+docs/calculator.png
+![Calculator](./calculator.png)
 ## 5. Result Page
 Features:
 - BAF result calculation
 - Display of previous choices
 - Explanation of how BAF is calculated
 - Information on whether the BAF value meets the criteria for a specific building
+![Result](./result.png)
 ## 6. Geoportal, API, Addresses, plot area
 ### 6.1 Query returning plot coordinates

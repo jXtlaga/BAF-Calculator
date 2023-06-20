@@ -1,8 +1,7 @@
 import $ from 'jquery';
 /* global ILITEAPI */
 const iMapLite = (function () {
-    
-    console.log(window.ILITEAPI);
+
     let iLA = window.ILITEAPI;
     var bindMsgEvts = false, iframe = null;
     if (!ILITEAPI) {
@@ -963,7 +962,6 @@ const iMapLite = (function () {
         clickEvent.selectedObject = selObject;
         $(iLA).trigger(clickEvent);
         //iLA.dispatchEvent(clickEvent);
-        //console.log(selObject);
     };
 
     //#endregion EVENTS
