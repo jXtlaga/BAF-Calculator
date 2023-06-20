@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: #f52f2f;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #d9d9d9;
+      }
+    </style>
+    <mask id="mask" x="-11.13" y="-11.13" width="70.25" height="70.25" maskUnits="userSpaceOnUse">
+      <g id="mask0_90_434" data-name="mask0 90 434">
+        <rect class="cls-4" x="-1.71" y="-1.71" width="51.43" height="51.43" transform="translate(-8.78 32.79) rotate(-60)"/>
+      </g>
+    </mask>
+  </defs>
+  <circle class="cls-2" cx="24" cy="24" r="24"/>
+  <g class="cls-1">
+    <path class="cls-3" d="m20,26.64l9.64-16.7,3.71,2.14-9.64,16.7-3.71-2.14Zm-5.36,9.28l2.14-3.71,3.71,2.14-2.14,3.71-3.71-2.14Z"/>
+  </g>
+</svg>
